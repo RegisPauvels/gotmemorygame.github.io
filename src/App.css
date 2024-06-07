@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Got';
+  src: url(/public/fonts/gotFont.ttf);
+  font-weight: normal;
+}
+
+.App {
+  font-family: 'Got';
+  max-width: 910px;
+  margin: 40px auto;
+  text-shadow: 5px 5px black;
+}
+
+.refreshButtons{
+  margin-top: 50px;
+}
+
+.card-grid{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.stark{
+  width: 200px;
+  height: 200px;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  background-image: url(/public/img/starkSigilMini.png);
+  background-position: center;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+.targaryen{
+  width: 200px;
+  height: 200px;
+  margin: 20px 20px;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  background-image: url(/public/img/targaryenSigilMini.png);
+  background-position: center;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+.lannister{
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  background-image: url(/public/img/lannisterSigilMini.png);
+  background-position: center;
+  background-color: black;
+  background-repeat: no-repeat;
+}
